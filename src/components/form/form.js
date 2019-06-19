@@ -26,6 +26,7 @@ export default class Form extends React.Component {
       <>
         <p>Name: {this.state.name}</p>
         <p># of Updates: {this.state.count}</p>
+
         <form onSubmit={this.handleSubmit}>
           <label>
             Name:
